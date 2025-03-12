@@ -336,7 +336,7 @@ def main():
 
     try:
         # Process dataset with force majeure focus
-        results = process_french_law_dataset(CSV_PATH)
+        results = process_dataset_francais(CSV_PATH)
 
         logging.info("Dataset Analysis Complete")
         logging.info(f"Total cases analyzed: {results['summary']['total_cases']}")
