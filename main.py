@@ -6,7 +6,7 @@ def main():
     csv_path = os.getenv("CSV_PATH", "path/to/your/french-law-dataset.csv")
 
     try:
-        results = process_french_law_dataset(csv_path)
+        results = process_dataset_francais(csv_path)
 
         logging.info("Dataset Analysis Complete")
         logging.info(f"Total cases analyzed: {results['summary']['total_cases']}")
