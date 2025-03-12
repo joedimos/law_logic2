@@ -1,4 +1,4 @@
-# Legal Reasoning App
+# Legal Reasoning - Logic etc
 
 This project is designed to analyze legal cases with a focus on force majeure using a logic-based reasoning approach. The application processes a dataset of legal cases, annotates them for force majeure, and evaluates the arguments using an argumentation framework.
 
