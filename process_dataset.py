@@ -251,7 +251,7 @@ class LogicBasedLegalReasoner:
             return {}
 
 # Function to process the French law dataset
-def process_french_law_dataset(csv_path: str):
+def process_dataset_francais(csv_path: str):
     """Process the French law dataset with force majeure annotation."""
     try:
         # Load dataset
