@@ -295,7 +295,7 @@ def process_dataset_francais(csv_path: str):
             results.append({
                 "case_id": i,
                 "force_majeure_detected": any("force_majeure" in arg_id for arg_id in analysis["force_majeure_analysis"]["arguments"]),
-                "AAF_Grounded_Ext": analysis["argumentation_results"]["grounded_extension"] #AAF analysis here
+                "AAF_Grounded_Ext": analysis["argumentation_results"]["grounded_extension"]
             })
 
         # Summarize results
