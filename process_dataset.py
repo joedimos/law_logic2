@@ -307,7 +307,7 @@ def process_dataset_francais(csv_path: str):
             "force_majeure_percentage": force_majeure_cases / len(results) if results else 0,
             "consistent_cases": consistent_cases,
             "consistent_percentage": consistent_cases / force_majeure_cases if force_majeure_cases else 0,
-            "average_sequent_validity": 0 #We won't be evaluating sequents anymore
+            "average_sequent_validity": 0 #sequent eval stops
         }
 
         return {
