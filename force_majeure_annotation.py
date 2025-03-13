@@ -9,7 +9,7 @@ class ForceMajeureAnnotator:
     def extract_force_majeure_claims(self, text: str) -> List[Dict]:
         claims = []
         # Placeholder implementation of force majeure claims extraction
-        # Here claims extraction will happen from the text based on NLP models or simpler methods
+        
         if "earthquake" in text:
             claims.append({
                 "is_valid": True,
